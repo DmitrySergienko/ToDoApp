@@ -1,5 +1,5 @@
 
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {
   Button,
   StyleSheet,
@@ -10,19 +10,20 @@ import {
 const App = () => {
 
   //properties
-  const [name, setName] = useState('JS') 
-  const [sesion,setSession] = useState({number:1, title: 'Title'})
+  const [name, setName] = useState('JS')
+  const [sesion, setSession] = useState({ number: 1, title: 'Title' })
   const [current, setCurrent] = useState(true)
 
 
   // function 
-  const onClickHandler = () =>{
+  const onClickHandler = () => {
     setName("Java")
-    setSession({number: 2,title: 'New Title'})
+    setSession({ number: 2, title: 'New Title' })
     setCurrent(false)
   }
 
   //ui
+
   return (
     <View style={styles.body}>
       <Text style={styles.text}>{sesion.title} # {sesion.number} </Text>
@@ -44,5 +45,6 @@ const styles = StyleSheet.create({
     color: '#ffffff'
   }
 });
+
 export default App;
 
