@@ -1,7 +1,7 @@
 import React from 'react';
 import {View,StyleSheet} from 'react-native';
 
-export default function Login(){
+export default function Home(){
     return(
         <View
         style ={styles.body}>
@@ -17,6 +17,3 @@ const styles = StyleSheet.create({
     backgroundColor: '#0080ff'
   }
 })
-
-
-

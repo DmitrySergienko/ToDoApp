@@ -17,6 +17,3 @@ const styles = StyleSheet.create({
     backgroundColor: '#0080ff'
   }
 })
-
-
-
